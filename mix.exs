@@ -43,7 +43,7 @@ defmodule Togglex.Mixfile do
   defp deps do
     [
       {:poison, "~> 2.1.0"},
-      {:httpoison, "~> 0.8.1"},
+      {:httpoison, "~> 0.8"},
       {:excoveralls, "~> 0.5.1", only: :test},
       {:exvcr, "~> 0.7.1", only: :test},
       {:meck, "~> 0.8.4", only: :test },
