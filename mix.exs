@@ -42,7 +42,7 @@ defmodule Togglex.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:poison, "~> 2.1.0"},
+      {:poison, "~> 2.2.0"},
       {:httpoison, "~> 0.10.0"},
       {:excoveralls, "~> 0.5.1", only: :test},
       {:exvcr, "~> 0.7.1", only: :test},
