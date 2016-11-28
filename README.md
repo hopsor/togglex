@@ -17,7 +17,7 @@ The package can be installed as:
 
   ```elixir
   def deps do
-    [{:togglex, "~> 0.1.0"}]
+    [{:togglex, "~> 0.2.1"}]
   end
   ```
 
