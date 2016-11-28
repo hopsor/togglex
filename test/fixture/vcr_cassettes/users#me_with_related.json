@@ -1,0 +1,32 @@
+[
+  {
+    "request": {
+      "body": "\"\"",
+      "headers": {
+        "User-agent": "togglex",
+        "Authorization": "Basic BASE64.ENCODE(TOGGL_TOKEN:api_token)"
+      },
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "https://toggl.com/api/v8/me?with_related_data=true&user_agent=togglex"
+    },
+    "response": {
+      "body": "{\"since\":1480327673,\"data\":{\"id\":2227136,\"api_token\":\"PASTE_TOGGL_TOKEN_HERE\",\"default_wid\":1357634,\"email\":\"nebojsa.vojvodic@foundcenter.com\",\"fullname\":\"Nebojsa Vojvodic\",\"jquery_timeofday_format\":\"h:i A\",\"jquery_date_format\":\"m/d/Y\",\"timeofday_format\":\"h:mm A\",\"date_format\":\"MM/DD/YYYY\",\"store_start_and_stop_time\":true,\"beginning_of_week\":1,\"language\":\"en_US\",\"image_url\":\"https://assets.toggl.com/images/profile.png\",\"sidebar_piechart\":true,\"at\":\"2016-10-05T07:45:19+00:00\",\"created_at\":\"2016-04-26T11:54:51+00:00\",\"retention\":9,\"record_timeline\":false,\"render_timeline\":false,\"timeline_enabled\":false,\"timeline_experiment\":false,\"new_blog_post\":{},\"should_upgrade\":false,\"achievements_enabled\":true,\"timezone\":\"Europe/Belgrade\",\"openid_enabled\":false,\"send_product_emails\":true,\"send_weekly_report\":true,\"send_timer_notifications\":true,\"last_blog_entry\":\"http://blog.toggl.com/2016/10/toggl-ui-update/\",\"invitation\":{},\"projects\":[],\"tags\":[],\"tasks\":[{\"id\":10913787,\"name\":\"TT-39 Github login with repo permissions - frontend and backend\",\"wid\":1357634,\"pid\":23357751,\"active\":true,\"at\":\"2016-11-16T10:10:16+00:00\",\"estimated_seconds\":0},{\"id\":10913786,\"name\":\"TT-39Github login with repo permissions - frontend and backend\",\"wid\":1357634,\"pid\":23357751,\"active\":true,\"at\":\"2016-11-16T10:10:03+00:00\",\"estimated_seconds\":0},{\"id\":10923151,\"name\":\"TT-40 Backend Setup\",\"wid\":1357634,\"pid\":23357751,\"active\":true,\"at\":\"2016-11-17T10:25:18+00:00\",\"estimated_seconds\":0}],\"workspaces\":[{\"id\":1357634,\"name\":\"AAAAA MMMMM's workspace\",\"profile\":100,\"premium\":true,\"admin\":false,\"default_hourly_rate\":0,\"default_currency\":\"USD\",\"only_admins_may_create_projects\":false,\"only_admins_see_billable_rates\":false,\"only_admins_see_team_dashboard\":false,\"projects_billable_by_default\":true,\"rounding\":1,\"rounding_minutes\":30,\"at\":\"2016-04-26T17:22:36+00:00\",\"logo_url\":\"https://assets.toggl.com/images/workspace.jpg\",\"ical_url\":\"/ical/workspace_user/ce90ccf85c15a17ba1f4958525d11498\",\"ical_enabled\":true,\"csv_upload\":{\"at\":\"2016-11-07 13:19:15.272397+00\",\"log_id\":4051697},\"subscription\":{\"workspace_id\":0,\"deleted_at\":null,\"created_at\":\"0001-01-01T00:00:00Z\",\"updated_at\":null,\"vat_valid\":false,\"vat_validated_at\":null,\"vat_invalid_accepted_at\":null,\"vat_invalid_accepted_by\":null,\"description\":\"Pro monthly\",\"vat_applicable\":false}}],\"clients\":[],\"duration_format\":\"improved\",\"obm\":{\"included\":false,\"nr\":0,\"actions\":\"tree\"}}}",
+      "headers": {
+        "Server": "nginx",
+        "Date": "Mon, 28 Nov 2016 10:07:53 GMT",
+        "Content-Type": "application/json; charset=utf-8",
+        "Content-Length": "5481",
+        "Connection": "keep-alive",
+        "Keep-Alive": "timeout=20",
+        "Cache-Control": "no-cache, private, no-store, must-revalidate, max-stale=0, post-check=0, pre-check=0",
+        "X-Toggl-Request-Id": "a4d61806-5c73-4a15-5d9e-cf8889694846",
+        "X-We-Are-Hiring": "http://jobs.toggl.com/",
+        "Instance": "web4"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

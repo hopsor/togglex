@@ -20,4 +20,14 @@ defmodule Togglex.Api.UsersTest do
       assert timezone == "Europe/Belgrade"
     end
   end
+
+  test "me_with_related/1" do
+    use_cassette "users#me_with_related" do
+      response = me_with_related(@client)
+
+      assert Map.has_key?(response.data, :workspaces)
+      assert Map.has_key?(response.data, :projects)
+      assert Map.has_key?(response.data, :clients)
+    end
+  end
 end
