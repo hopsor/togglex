@@ -52,7 +52,8 @@ defmodule Togglex do
   end
 
   def json_request(method, url, body \\ "", headers \\ [], options \\ []) do
-    request!(method, url, Poison.encode!(body), headers, options) |> process_response
+    body = if String.trim(body) == "", do: body, else: Poison.encode!(body)
+    request!(method, url, body, headers, options) |> process_response
   end
 
   @spec authorization_header(Client.auth, list) :: list
